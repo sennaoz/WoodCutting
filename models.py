@@ -1,4 +1,4 @@
-from django.db import models
+from django.db import models # type: ignore
 
 class KesimVerileri(models.Model):
     x_kesim = models.IntegerField()
